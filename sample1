@@ -1,0 +1,17 @@
+CREATE DATABASE Car_Inventory;
+USE Car_Inventory;
+CREATE TABLE CarInfo_(CarID longtext,
+Make longtext,
+Make_Full_name longtext, 
+Model longtext,
+Model_Full_name longtext, 
+Manufacture_year longtext, 
+Age longtext, 
+Miles longtext, 
+Miles_per_year longtext,
+Colour longtext,
+Driver longtext,
+Warantee_miles longtext,
+Covered longtext,
+New_Car_ID longtext);
+SELECT * FROM CarInfo_;
